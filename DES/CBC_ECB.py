@@ -11,7 +11,7 @@ import binascii
 
 class Crypto_DES:
     @staticmethod
-    def CEC_encrypt(text: str, key: str) -> str:
+    def CBC_encrypt(text: str, key: str) -> str:
         """
         DES-CBC加密
         :param text:
@@ -28,9 +28,9 @@ class Crypto_DES:
         return text
 
     @staticmethod
-    def CEC_decrypt(text: str, key: str) -> str:
+    def CBC_decrypt(text: str, key: str) -> str:
         """
-        DES-CEC解密
+        DBS-CEC解密
         :param text:
         :param key:
         :return:
@@ -85,5 +85,5 @@ if __name__ == '__main__':
     passwd = '12345678'
     string = C.ECB_encrypt(string, passwd)
     C.ECB_decrypt(string, passwd)
-    string = C.CEC_encrypt(string, passwd)
-    C.CEC_decrypt(string, passwd)
+    string = C.CBC_encrypt(string, passwd)
+    C.CBC_decrypt(string, passwd)
