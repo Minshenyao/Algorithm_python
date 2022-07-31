@@ -14,4 +14,4 @@
 
 
 [url-DES-CBC_ECB]: https://github.com/Minshenyao/Algorithm_python/blob/main/DES/CBC_ECB.py
-[url-AES-CBC-ECB]: https://github.com/Minshenyao/Algorithm_python/blob/main/AES/CBC_ECB.py
+[url-AES-CBC_ECB]: https://github.com/Minshenyao/Algorithm_python/blob/main/AES/CBC_ECB.py
