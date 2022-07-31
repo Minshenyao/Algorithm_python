@@ -7,10 +7,11 @@
 ***
 ## 目录
  - ### DES
-    - [CBC_ECB][url-CBC_ECB]
+    - [CBC_ECB][url-DES-CBC_ECB]
  - ### AES
-    - [CBC_ECB][url-CBC_ECB]
+    - [CBC_ECB][url-AES-CBC_ECB]
 
 
 
-[url-CBC_ECB]: https://github.com/Minshenyao/Algorithm_python/blob/main/DES/CBC_ECB.py
+[url-DES-CBC_ECB]: https://github.com/Minshenyao/Algorithm_python/blob/main/DES/CBC_ECB.py
+[url-AES-CBC-ECB]: https://github.com/Minshenyao/Algorithm_python/blob/main/AES/CBC_ECB.py
